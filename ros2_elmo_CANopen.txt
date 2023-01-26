@@ -23,7 +23,7 @@ class elmo_ros2(Node):
         self.declare_parameter('Channel','can0')    #Param4 default #############
         self.declare_parameter('Mode', 4)           #Param5 default #############  4 for torque
         self.declare_parameter('Init_vel_tor',0)    #Param6 default #############
-        self.declare_parameter('Path','/home/dfki.uni-bremen.de/jgonzalez/Downloads/CANedsGoldV005_0.eds')      #Param7 default ############
+        self.declare_parameter('Path','/CANedsGoldV005_0.eds')      #Param7 default ############
         self.declare_parameter('Node_id_m1',127)    #Param8 default #############
         self.declare_parameter('Node_id_m2',128)    #Param9 default #############
         self.declare_parameter('Node_id_m3',129)    #Param10 default #############
